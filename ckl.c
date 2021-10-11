@@ -11,8 +11,8 @@
 int main(){
 	
 	// Variable
-	char nama[999]; // Nama Mahasiswa
-	int a,b,c,d,j;	// Nilai Matakuliah
+	char nama[999];		// Nama Mahasiswa
+	int a,b,c,d,j;		// Nilai Matakuliah
 	int e = 4;		// Jumlah Matakuliah
 	float r;		// Var. Rata - rata
 	
@@ -81,12 +81,12 @@ int main(){
 	/////////////
 	printf("\n");
 	printf("==================================================\n");
-	printf("												  \n");
-	printf(" Developed by:									  \n");
-	printf(" Jody Yuantoro ( 2021-147 )						  \n");
+	printf("						  \n");
+	printf(" Developed by:					  \n");
+	printf(" Jody Yuantoro ( 2021-147 )			  \n");
 	printf(" Informatics Engineering, Faculty of Engineering  \n");
-	printf(" University of Muhammadiyah Malang				  \n");
-	printf("												  \n");
+	printf(" University of Muhammadiyah Malang		  \n");
+	printf("						  \n");
 
 	printf("==================================================\n");
 	printf(" Tekan tombol apapun untuk mengakhiri program . . \n");	
