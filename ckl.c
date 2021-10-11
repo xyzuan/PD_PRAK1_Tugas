@@ -1,52 +1,98 @@
+//
+// Jody Yuantoro ( 2021-147 )
+// Informatics Engineering, Faculty of Engineering
+// University of Muhammadiyah Malang
+//
+
+// Library
 #include <stdio.h>
+#include <conio.h>
 
 int main(){
 	
-	char nama[999];
-	int a,b,c,d,j;
-	int e = 4;
-	int r;
+	// Variable
+	char nama[999]; // Nama Mahasiswa
+	int a,b,c,d,j;	// Nilai Matakuliah
+	int e = 4;		// Jumlah Matakuliah
+	float r;		// Var. Rata - rata
 	
-	printf("Masukkan nilai:\n");
+	// Banner
+	printf("==================================================\n");
+	printf("===          Tugas Pemrograman Dasar           ===\n");
+	printf("===               Cek Kelulusan                ===\n");
+	printf("==================================================\n");
 	
-	// Input nama
-	printf("Nama Lengkap: ");
+	////////////////////////////
+	// Input Data Mahasiswa/i //
+	////////////////////////////
+	printf("\n");
+	printf("  Input Data Mahasiswa\n");
+	
+	// Nama
+	printf("  Nama Lengkap: ");
 	scanf("%[^\n]s]", &nama);
 	
-	// Input Nilai Pemograman Dasar
-	printf("Pemograman Dasar: ");
+	// Nilai Pemograman Dasar
+	printf("  Pemograman Dasar: ");
 	scanf("%d", &a);
 	
-	// Input Nilai Kalkulus
-	printf("Kalkulus: ");
+	// Nilai Kalkulus
+	printf("  Kalkulus: ");
 	scanf("%d", &b);
 	
-	// Input Nilai PTI
-	printf("PTI: ");
+	// Nilai PTI
+	printf("  PTI: ");
 	scanf("%d", &c);
 	
-	// Input Nilai Orkom
-	printf("Orkom: ");
+	// Nilai Orkom
+	printf("  Orkom: ");
 	scanf("%d", &d);
 	
-	// Mencari rata-rata
+	///////////////////////
+	// Mencari rata-rata //
+	///////////////////////
 	r = ( a + b + c + d ) / e;
 	
+	//////////////////////////////////
+	// Fungsi Menyatakan Lulus		//
+	// Jika, nilai rata rata >= 75	//
+	//////////////////////////////////
 	if ( r >= 75 )
 	{
-		printf("Selamat ");
+		printf("\n");
+		printf("  Selamat ");
 		printf("%s", &nama);
 		printf(" lulus, dengan hasil nilai rata-rata: ");
-		printf("%d", r);
+		printf("%.2f", r);
+		printf("\n");
 	}
 	else
 	{
-		printf("Selamat ");
+		printf("\n");
+		printf("  Selamat ");
 		printf("%s", &nama);
 		printf(" tidak lulus, dengan hasil nilai rata-rata: ");
-		printf("%d", r);
+		printf("%.2f", r);
+		printf("\n");
 	}
 	
-	pause()
+	/////////////
+	// End Msg //
+	/////////////
+	printf("\n");
+	printf("==================================================\n");
+	printf("												  \n");
+	printf(" Developed by:									  \n");
+	printf(" Jody Yuantoro ( 2021-147 )						  \n");
+	printf(" Informatics Engineering, Faculty of Engineering  \n");
+	printf(" University of Muhammadiyah Malang				  \n");
+	printf("												  \n");
+
+	printf("==================================================\n");
+	printf(" Tekan tombol apapun untuk mengakhiri program . . \n");	
+	printf("==================================================\n");
 	
+	getch();
+	return 0;
+
 }
