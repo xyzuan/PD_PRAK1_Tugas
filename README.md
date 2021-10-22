@@ -1,0 +1,2 @@
+# PD_PRAK1_Tugas
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8180d99303b14a2f85f035388ed249de)](https://app.codacy.com/gh/xyzuan/PD_PRAK1_Tugas?utm_source=github.com&utm_medium=referral&utm_content=xyzuan/PD_PRAK1_Tugas&utm_campaign=Badge_Grade_Settings)
